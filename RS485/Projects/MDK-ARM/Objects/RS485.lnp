@@ -1,0 +1,22 @@
+--cpu Cortex-M0+
+".\objects\startup_py32f002bxx.o"
+".\objects\py32f002b_it.o"
+".\objects\py32f002b_hal_msp.o"
+".\objects\system_py32f002b.o"
+".\objects\main.o"
+".\objects\py32f002bxx_start_kit.o"
+".\objects\rs485.o"
+".\objects\oled.o"
+".\objects\oled_data.o"
+".\objects\led.o"
+".\objects\py32f002b_hal.o"
+".\objects\py32f002b_hal_gpio.o"
+".\objects\py32f002b_hal_rcc.o"
+".\objects\py32f002b_hal_rcc_ex.o"
+".\objects\py32f002b_hal_uart.o"
+".\objects\py32f002b_hal_usart.o"
+".\objects\py32f002b_hal_cortex.o"
+".\objects\py32f002b_hal_i2c.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\RS485.map" -o .\Objects\RS485.axf

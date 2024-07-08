@@ -1,0 +1,21 @@
+--cpu Cortex-M0+
+"..\..\output\startup_py32f002bxx.o"
+"..\..\output\system_py32f002b.o"
+"..\..\output\py32f002b_it.o"
+"..\..\output\py32f002b_hal_msp.o"
+"..\..\output\main.o"
+"..\..\output\py32f002bxx_start_kit.o"
+"..\..\output\oled.o"
+"..\..\output\oled_data.o"
+"..\..\output\py32f002b_hal.o"
+"..\..\output\py32f002b_hal_cortex.o"
+"..\..\output\py32f002b_hal_gpio.o"
+"..\..\output\py32f002b_hal_i2c.o"
+"..\..\output\py32f002b_hal_rcc.o"
+"..\..\output\py32f002b_hal_rcc_ex.o"
+"..\..\output\py32f002b_hal_spi.o"
+"..\..\output\py32f002b_hal_uart.o"
+"..\..\output\py32f002b_hal_usart.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\Output\TH.map" -o ..\..\Output\TH.axf
